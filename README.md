@@ -2,7 +2,7 @@
 Lets you create one media file from several files.
 
 # Prerequisites
-ffmpeg
+* ffmpeg
 
 # Run
 Create a mylist.txt by running 
