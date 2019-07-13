@@ -1,2 +1,4 @@
 #!/bin/sh
-ffmpeg -f concat -safe 0 -i mylist.txt -c copy output.mp3
+output=$1
+echo writing to $output
+ffmpeg -f concat -safe 0 -i mylist.txt -c copy $output
